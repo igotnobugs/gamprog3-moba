@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: RadiantSuperMeleeCreepController
+  m_Controller: {fileID: 9100000, guid: 747473051f155fb4db2ff0dd521cc5fe, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: e4420ecec4072b444a8eb9eb720d4512, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: a2b1fab7a7f019e4a8a5f637f1c97fbe, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 4a0b232f16dcd9142b3e3db96b526d79, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 3055cd6713fa7a6469dda17842749fb2, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 20dd356a873240c4bb2a005c20a0f97e, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 369bb954776a72a4eb918fdab036cdff, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: f09bd92fdd989ce45b4db6845d50c939, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 4fdbd722827bfb0489318066628ea3be, type: 2}

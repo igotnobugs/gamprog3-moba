@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72f1e6450e498c14380fb921fbf205bb, type: 3}
+  m_Name: Protection Buff Tower 1
+  m_EditorClassIdentifier: 
+  buffId: Tower Protection
+  hasDuration: 0
+  isDispellable: 0
+  isStackable: 0
+  stacks: 1
+  buffLevel: 1
+  duration:
+    value:
+    - 0
+  HUDIcon: {fileID: 21300000, guid: 8330dbc1e19e7d444b5999d78a48e3e6, type: 3}
+  isHidden: 0
+  isDetrimental: 0
+  durationCount: 0
+  onlyAffectsRange: 0
+  statModified: 1
+  modifierValue:
+    value:
+    - 2

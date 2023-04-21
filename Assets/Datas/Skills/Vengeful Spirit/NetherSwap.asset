@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88dbd8371c6c87e4dadfd1ee8c779327, type: 3}
+  m_Name: NetherSwap
+  m_EditorClassIdentifier: 
+  skillName: Nether Swap
+  skillIcon: {fileID: 21300000, guid: c417182a15983af418264a8235649361, type: 3}
+  skillType: 0
+  targetingType: 2
+  affectType: 1
+  mustBeChannelled: 0
+  damageType: 0
+  description: 
+  skillLevel: 0
+  levelAvailability: 060000000c00000012000000
+  baseDamage:
+    value:
+    - 0
+  range:
+    value:
+    - 700
+    - 850
+    - 1000
+  manaConsumption:
+    value:
+    - 100
+    - 150
+    - 200
+  coolDown:
+    value:
+    - 45
+  buffToApply:
+    value:
+    - {fileID: 11400000, guid: dd2848508cbaf344ea67be3b58588711, type: 2}
+  activeCooldown: 0
+  isSelected: 0

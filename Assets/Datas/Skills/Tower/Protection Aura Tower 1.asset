@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd799393a6ceab34f820b53fa5af5633, type: 3}
+  m_Name: Protection Aura Tower 1
+  m_EditorClassIdentifier: 
+  skillName: Tower Protection Aura
+  skillIcon: {fileID: 0}
+  skillType: 1
+  targetingType: 0
+  affectType: 3
+  mustBeChannelled: 0
+  damageType: 0
+  description: 
+  skillLevel: 1
+  levelAvailability: 00000000
+  baseDamage:
+    value:
+    - 0
+  range:
+    value:
+    - 900
+  manaConsumption:
+    value:
+    - 0
+  coolDown:
+    value:
+    - 0
+  buffToApply:
+    value:
+    - {fileID: 11400000, guid: 49ed22831070b9546948effdc3172c88, type: 2}
+  activeCooldown: 0
+  isSelected: 0
+  auraSight: {fileID: 968036011330330888, guid: 21cae24a3f1898241950249336772342, type: 3}

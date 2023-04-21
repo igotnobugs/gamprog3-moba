@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: DireMeleeCreepController
+  m_Controller: {fileID: 9100000, guid: 747473051f155fb4db2ff0dd521cc5fe, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: e4420ecec4072b444a8eb9eb720d4512, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 085720d1b73cec148abb053f939991f6, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 4a0b232f16dcd9142b3e3db96b526d79, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 84ad4ed903afc61478f716b9c7120246, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 20dd356a873240c4bb2a005c20a0f97e, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 19e0c52cab0068440aa17c7c668923b6, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: f09bd92fdd989ce45b4db6845d50c939, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 093b087aba213bb4191f9cf1cb7699d5, type: 2}

@@ -1,0 +1,190 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fdd0d76fecd6e1c4ba42519f88c6abed, type: 3}
+  m_Name: Hero Level Database
+  m_EditorClassIdentifier: 
+  datas:
+  - id: 1
+    level: 1
+    requiredExp: 230
+    expKillBounty: 110
+    goldLastHitBounty: 236
+    goldAssistBounty: 59
+    respawnTime: 6
+  - id: 2
+    level: 2
+    requiredExp: 600
+    expKillBounty: 190
+    goldLastHitBounty: 252
+    goldAssistBounty: 63
+    respawnTime: 8
+  - id: 3
+    level: 3
+    requiredExp: 1080
+    expKillBounty: 300
+    goldLastHitBounty: 268
+    goldAssistBounty: 67
+    respawnTime: 10
+  - id: 4
+    level: 4
+    requiredExp: 1660
+    expKillBounty: 440
+    goldLastHitBounty: 284
+    goldAssistBounty: 71
+    respawnTime: 14
+  - id: 5
+    level: 5
+    requiredExp: 2260
+    expKillBounty: 590
+    goldLastHitBounty: 300
+    goldAssistBounty: 75
+    respawnTime: 16
+  - id: 6
+    level: 6
+    requiredExp: 2980
+    expKillBounty: 760
+    goldLastHitBounty: 316
+    goldAssistBounty: 79
+    respawnTime: 26
+  - id: 7
+    level: 7
+    requiredExp: 3730
+    expKillBounty: 950
+    goldLastHitBounty: 332
+    goldAssistBounty: 83
+    respawnTime: 28
+  - id: 8
+    level: 8
+    requiredExp: 4510
+    expKillBounty: 1150
+    goldLastHitBounty: 348
+    goldAssistBounty: 87
+    respawnTime: 30
+  - id: 9
+    level: 9
+    requiredExp: 5320
+    expKillBounty: 1360
+    goldLastHitBounty: 364
+    goldAssistBounty: 91
+    respawnTime: 32
+  - id: 10
+    level: 10
+    requiredExp: 6160
+    expKillBounty: 1570
+    goldLastHitBounty: 380
+    goldAssistBounty: 95
+    respawnTime: 34
+  - id: 11
+    level: 11
+    requiredExp: 7030
+    expKillBounty: 1790
+    goldLastHitBounty: 396
+    goldAssistBounty: 99
+    respawnTime: 36
+  - id: 12
+    level: 12
+    requiredExp: 7930
+    expKillBounty: 2020
+    goldLastHitBounty: 412
+    goldAssistBounty: 103
+    respawnTime: 44
+  - id: 13
+    level: 13
+    requiredExp: 9155
+    expKillBounty: 2300
+    goldLastHitBounty: 428
+    goldAssistBounty: 107
+    respawnTime: 46
+  - id: 14
+    level: 14
+    requiredExp: 10405
+    expKillBounty: 2622
+    goldLastHitBounty: 444
+    goldAssistBounty: 111
+    respawnTime: 48
+  - id: 15
+    level: 15
+    requiredExp: 11680
+    expKillBounty: 2950
+    goldLastHitBounty: 460
+    goldAssistBounty: 115
+    respawnTime: 50
+  - id: 16
+    level: 16
+    requiredExp: 12980
+    expKillBounty: 3280
+    goldLastHitBounty: 476
+    goldAssistBounty: 119
+    respawnTime: 52
+  - id: 17
+    level: 17
+    requiredExp: 14305
+    expKillBounty: 3630
+    goldLastHitBounty: 492
+    goldAssistBounty: 123
+    respawnTime: 54
+  - id: 18
+    level: 18
+    requiredExp: 15805
+    expKillBounty: 4000
+    goldLastHitBounty: 508
+    goldAssistBounty: 127
+    respawnTime: 65
+  - id: 19
+    level: 19
+    requiredExp: 17395
+    expKillBounty: 4400
+    goldLastHitBounty: 524
+    goldAssistBounty: 131
+    respawnTime: 70
+  - id: 20
+    level: 20
+    requiredExp: 18995
+    expKillBounty: 4810
+    goldLastHitBounty: 540
+    goldAssistBounty: 135
+    respawnTime: 75
+  - id: 21
+    level: 21
+    requiredExp: 20845
+    expKillBounty: 5260
+    goldLastHitBounty: 556
+    goldAssistBounty: 139
+    respawnTime: 80
+  - id: 22
+    level: 22
+    requiredExp: 22945
+    expKillBounty: 5770
+    goldLastHitBounty: 572
+    goldAssistBounty: 143
+    respawnTime: 85
+  - id: 23
+    level: 23
+    requiredExp: 25295
+    expKillBounty: 6350
+    goldLastHitBounty: 588
+    goldAssistBounty: 147
+    respawnTime: 90
+  - id: 24
+    level: 24
+    requiredExp: 27895
+    expKillBounty: 7000
+    goldLastHitBounty: 604
+    goldAssistBounty: 151
+    respawnTime: 95
+  - id: 25
+    level: 25
+    requiredExp: 999999
+    expKillBounty: 7330
+    goldLastHitBounty: 620
+    goldAssistBounty: 155
+    respawnTime: 100

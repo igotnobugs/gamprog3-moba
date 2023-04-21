@@ -1,0 +1,145 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c1228ea915339140afbf83d87da93c4, type: 3}
+  m_Name: HeroNecrophos
+  m_EditorClassIdentifier: 
+  unitName: Necrophos
+  unitPortrait: {fileID: 21300000, guid: 89e54bb49dd002e4da8544b088a259cd, type: 3}
+  unitType: 1
+  health:
+    current: 200
+    max: 200
+    regen: 0
+    regenModifier: 0
+  hasMana: 1
+  mana:
+    current: 75
+    max: 75
+    regen: 0
+    regenModifier: 0
+  armor:
+    normal: 1
+    growth: 0
+    flatModifier: 0
+    percentModifier: 0
+    hasMinMax: 0
+    minMax: {x: 0, y: 0}
+  armorType: {fileID: 11400000, guid: 51ee4c6bf870b144799e8b6dc57321a1, type: 2}
+  evasion:
+    normal: 0
+    growth: 0
+    flatModifier: 0
+    percentModifier: 0
+    hasMinMax: 0
+    minMax: {x: 0, y: 0}
+  physicalResistance:
+    normal: 0
+    growth: 0
+    flatModifier: 0
+    percentModifier: 0
+    hasMinMax: 0
+    minMax: {x: 0, y: 0}
+  baseMagicResistance: 0.25
+  totalMagicResistance: 0.25
+  autoAttack: {fileID: 11400000, guid: feb4d23d16e55d64f8a194643b47ed63, type: 2}
+  attackDamage:
+    normal: 28
+    growth: 0
+    flatModifier: 0
+    percentModifier: 0
+    hasMinMax: 0
+    minMax: {x: 0, y: 0}
+  attackRange:
+    normal: 500
+    growth: 0
+    flatModifier: 0
+    percentModifier: 0
+    hasMinMax: 0
+    minMax: {x: 0, y: 0}
+  isRange: 1
+  attackType: 3
+  attackSpeed:
+    normal: 100
+    growth: 0
+    flatModifier: 0
+    percentModifier: 0
+    hasMinMax: 1
+    minMax: {x: 20, y: 700}
+  attackRate: 0
+  baseAttackTime: 1.7
+  totalAttackTime: 1.7
+  sightRange: 750
+  qSkill: {fileID: 11400000, guid: c8f259649fe73904182b28bd9c0b68ad, type: 2}
+  wSkill: {fileID: 11400000, guid: 9c16e8468b5bba84aa7467c26889144b, type: 2}
+  eSkill: {fileID: 11400000, guid: f7434366698b18843b0ed00e6c1bddb7, type: 2}
+  rSkill: {fileID: 11400000, guid: 172c3de155b24894881ca1fc2e57293e, type: 2}
+  turnRateSpeed: 1440
+  moveSpeed:
+    normal: 280
+    growth: 0
+    flatModifier: 0
+    percentModifier: 0
+    hasMinMax: 0
+    minMax: {x: 0, y: 0}
+  attributeData:
+    mainAttribute: 2
+    strength:
+      normal: 18
+      growth: 2.8
+      flatModifier: 0
+      percentModifier: 0
+      hasMinMax: 0
+      minMax: {x: 0, y: 0}
+    agility:
+      normal: 12
+      growth: 1.3
+      flatModifier: 0
+      percentModifier: 0
+      hasMinMax: 0
+      minMax: {x: 0, y: 0}
+    intelligence:
+      normal: 21
+      growth: 2.9
+      flatModifier: 0
+      percentModifier: 0
+      hasMinMax: 0
+      minMax: {x: 0, y: 0}
+    damageBonus: 0
+  goldBounty: 0
+  teamGoldBounty: 0
+  experienceBounty: 0
+  healthGrowth: 0
+  attackGrowth: 0
+  bountyGrowth: 0
+  experienceGrowth: 0
+  levelDatabase: {fileID: 11400000, guid: 04ffb0b5536090a4c84e5905d05cd479, type: 2}
+  levelData:
+    id: 
+    level: 0
+    requiredExp: 0
+    expKillBounty: 0
+    goldLastHitBounty: 0
+    goldAssistBounty: 0
+    respawnTime: 0
+  level: 1
+  experience: 0
+  skillPoints: 1
+  gold: 600
+  magicResModifiers: []
+  magicResReductionModifiers: []
+  buffsApplied: []
+  stunState: 0
+  disarmState: 0
+  physicalImmuneState: 0
+  respawnTime: 0
+  kills: 0
+  deaths: 0

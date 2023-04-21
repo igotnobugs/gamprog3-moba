@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e030d6137438ac84f98dd106613ab5c3, type: 3}
+  m_Name: Auto Attack Range Tower 1
+  m_EditorClassIdentifier: 
+  skillName: Range Tower Attack 1
+  skillIcon: {fileID: 0}
+  skillType: 2
+  targetingType: 2
+  affectType: 1
+  mustBeChannelled: 0
+  damageType: 0
+  description: 
+  skillLevel: 1
+  levelAvailability: 00000000
+  baseDamage:
+    value:
+    - 110
+  range:
+    value:
+    - 700
+  manaConsumption:
+    value:
+    - 0
+  coolDown:
+    value:
+    - 0
+  buffToApply:
+    value:
+    - {fileID: 0}
+  activeCooldown: 0
+  isSelected: 0
+  projectile: {fileID: 8714136005283671232, guid: 24c86df1468884d499ca1d5cb865a6f7, type: 3}
+  projectileOffset: {x: 0, y: 5, z: 0}
+  overrideProjectileSettings: 1
+  projectileSpeed: 750

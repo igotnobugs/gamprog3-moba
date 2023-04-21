@@ -1,0 +1,120 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c1228ea915339140afbf83d87da93c4, type: 3}
+  m_Name: HeroVengeful
+  m_EditorClassIdentifier: 
+  unitName: Vengeful Spirit
+  unitPortrait: {fileID: 21300000, guid: dc25a0584940fa6489c81a16a9cad207, type: 3}
+  unitType: 1
+  _isHero: 1
+  health:
+    current: 200
+    max: 200
+    regen: 0.25
+  hasMana: 1
+  mana:
+    current: 75
+    max: 75
+    regen: 0
+  armor:
+    normal: 0
+    growth: 0
+    modifier: 0
+    hasMinMax: 0
+    minMax: {x: 0, y: 0}
+  armorType: {fileID: 11400000, guid: 51ee4c6bf870b144799e8b6dc57321a1, type: 2}
+  baseMagicResistance: 0.25
+  totalMagicResistance: 0.25
+  autoAttack: {fileID: 11400000, guid: feb4d23d16e55d64f8a194643b47ed63, type: 2}
+  attackDamage:
+    normal: 25
+    growth: 0
+    modifier: 0
+    hasMinMax: 0
+    minMax: {x: 0, y: 0}
+  attackRange:
+    normal: 400
+    growth: 0
+    modifier: 0
+    hasMinMax: 0
+    minMax: {x: 0, y: 0}
+  isRange: 1
+  attackType: 3
+  attackSpeed:
+    normal: 100
+    growth: 0
+    modifier: 0
+    hasMinMax: 1
+    minMax: {x: 20, y: 700}
+  attackRate: 0
+  baseAttackTime: 1.7
+  totalAttackTime: 1.7
+  sightRange: 750
+  qSkill: {fileID: 11400000, guid: c8f259649fe73904182b28bd9c0b68ad, type: 2}
+  wSkill: {fileID: 11400000, guid: 9c16e8468b5bba84aa7467c26889144b, type: 2}
+  eSkill: {fileID: 11400000, guid: f7434366698b18843b0ed00e6c1bddb7, type: 2}
+  rSkill: {fileID: 11400000, guid: 08dc0f43ef7f5ac43a1ed1997378a54b, type: 2}
+  turnRateSpeed: 1440
+  moveSpeed:
+    normal: 290
+    growth: 0
+    modifier: 0
+    hasMinMax: 0
+    minMax: {x: 0, y: 0}
+  attributeData:
+    mainAttribute: 1
+    strength:
+      normal: 19
+      growth: 2.4
+      modifier: 2.4
+      hasMinMax: 0
+      minMax: {x: 0, y: 0}
+    agility:
+      normal: 20
+      growth: 3.8
+      modifier: 3.8
+      hasMinMax: 0
+      minMax: {x: 0, y: 0}
+    intelligence:
+      normal: 17
+      growth: 1.5
+      modifier: 1.5
+      hasMinMax: 0
+      minMax: {x: 0, y: 0}
+    damageBonus: 0
+  goldBounty: 0
+  teamGoldBounty: 0
+  experienceBounty: 0
+  healthGrowth: 0
+  attackGrowth: 0
+  bountyGrowth: 0
+  experienceGrowth: 0
+  levelDatabase: {fileID: 11400000, guid: 04ffb0b5536090a4c84e5905d05cd479, type: 2}
+  levelData:
+    id: 
+    level: 0
+    requiredExp: 0
+    expKillBounty: 0
+    goldLastHitBounty: 0
+    goldAssistBounty: 0
+    respawnTime: 0
+  level: 1
+  experience: 0
+  skillPoints: 1
+  gold: 600
+  magicResModifiers: []
+  magicResReductionModifiers: []
+  buffsApplied: []
+  stunState: 0
+  respawnTime: 0
+  kills: 0
+  deaths: 0

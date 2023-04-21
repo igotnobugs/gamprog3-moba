@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &87368462045618420
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3208276210206608603}
+  - component: {fileID: 4079926972501557904}
+  m_Layer: 0
+  m_Name: CreepSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3208276210206608603
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 87368462045618420}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -92.64, y: 6.73, z: -120.28}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4079926972501557904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 87368462045618420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11a4f5ea7b7bc5b4dae22ffa4e4a77bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  creepsToSpawn:
+  - {fileID: 3160082683443825670, guid: 079ca699fe2edf341b053a9efb7c899e, type: 3}
+  - {fileID: 3160082683443825670, guid: 079ca699fe2edf341b053a9efb7c899e, type: 3}
+  - {fileID: 3160082683443825670, guid: 079ca699fe2edf341b053a9efb7c899e, type: 3}
+  - {fileID: 2256388898064698633, guid: 092a71447fb4da44a9d000deaa993740, type: 3}
+  siegeCreep: {fileID: 1343665116577898862, guid: 9afee9637e2b69b43994e95e2178b429, type: 3}
+  spawnPoint: {fileID: 0}
+  laneWaypoints:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  faction: 0
+  spawnInterval: 1

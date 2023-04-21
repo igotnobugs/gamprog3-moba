@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: RadiantRangeCreepController
+  m_Controller: {fileID: 9100000, guid: 747473051f155fb4db2ff0dd521cc5fe, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: e4420ecec4072b444a8eb9eb720d4512, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 3d7549f3451bbce418a765ec0c6177e2, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 4a0b232f16dcd9142b3e3db96b526d79, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 0bfa5b42c17bd0a41819230869e7e369, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 20dd356a873240c4bb2a005c20a0f97e, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: c8d97757a8f47214ebd2b5095b82b8b7, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: f09bd92fdd989ce45b4db6845d50c939, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 7615f63a3cfc0234cbaf327c6dadd111, type: 2}

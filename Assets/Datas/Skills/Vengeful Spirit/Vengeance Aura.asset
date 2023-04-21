@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd799393a6ceab34f820b53fa5af5633, type: 3}
+  m_Name: Vengeance Aura
+  m_EditorClassIdentifier: 
+  skillName: Vengeance Aura
+  skillIcon: {fileID: 21300000, guid: bb38fbae70742b642bee126ce08d27b6, type: 3}
+  skillType: 1
+  targetingType: 0
+  affectType: 3
+  mustBeChannelled: 0
+  damageType: 0
+  description: 
+  skillLevel: 0
+  levelAvailability: 01000000030000000500000007000000
+  baseDamage:
+    value:
+    - 0
+  range:
+    value:
+    - 1200
+  manaConsumption:
+    value:
+    - 0
+  coolDown:
+    value:
+    - 0
+  buffToApply:
+    value:
+    - {fileID: 11400000, guid: 7734c0bb094aeba47981fe8181cf11aa, type: 2}
+  activeCooldown: 0
+  isSelected: 0
+  auraSight: {fileID: 968036011330330888, guid: 21cae24a3f1898241950249336772342, type: 3}

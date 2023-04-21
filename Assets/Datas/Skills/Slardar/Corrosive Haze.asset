@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e030d6137438ac84f98dd106613ab5c3, type: 3}
+  m_Name: Corrosive Haze
+  m_EditorClassIdentifier: 
+  skillName: Corrosive Haze
+  skillIcon: {fileID: 21300000, guid: d34160fecccc4bd429aad8f1adaa77c3, type: 3}
+  skillType: 0
+  targetingType: 2
+  affectType: 1
+  mustBeChannelled: 0
+  damageType: 0
+  description: 
+  skillLevel: 0
+  levelAvailability: 060000000c00000012000000
+  baseDamage:
+    value:
+    - 0
+  range:
+    value:
+    - 700
+    - 800
+    - 900
+  manaConsumption:
+    value:
+    - 25
+  coolDown:
+    value:
+    - 5
+  buffToApply:
+    value:
+    - {fileID: 11400000, guid: 70985945383d85f45b981d1b9419e033, type: 2}
+  activeCooldown: 0
+  isSelected: 0
+  projectile: {fileID: 8714136005283671232, guid: 24c86df1468884d499ca1d5cb865a6f7, type: 3}
+  projectileOffset: {x: 0, y: 2, z: 0}
+  overrideProjectileSettings: 1
+  projectileSpeed: 900

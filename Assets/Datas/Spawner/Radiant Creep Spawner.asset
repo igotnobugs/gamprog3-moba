@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6fc584d2e5e2c0429b0c2aec9ca5bef, type: 3}
+  m_Name: Radiant Creep Spawner
+  m_EditorClassIdentifier: 
+  spawnInterval: 0.25
+  siegeWaveInterval: 5
+  meleePerWave: 3
+  rangePerWave: 1
+  siegePerWave: 1
+  meleeCreep: {fileID: 3160082683443825670, guid: 079ca699fe2edf341b053a9efb7c899e, type: 3}
+  rangeCreep: {fileID: 2256388898064698633, guid: 092a71447fb4da44a9d000deaa993740, type: 3}
+  siegeCreep: {fileID: 1343665116577898862, guid: 9afee9637e2b69b43994e95e2178b429, type: 3}
+  superMeleeCreep: {fileID: 3525578851353920205, guid: 4abea893776850146bf0255ed082adda, type: 3}
+  superRangeCreep: {fileID: 7130796713323570342, guid: 0261b8c857bc8164e812b200720dcaed, type: 3}
+  superSiegeCreep: {fileID: 1343665116577898862, guid: 616bd8ba3231e2946a808c7a9728e694, type: 3}
+  baseMeleeCreep: {fileID: 11400000, guid: f0e53c52467e2344e8b0800683c3ea22, type: 2}
+  baseSuperMeleeCreep: {fileID: 11400000, guid: be115686aee5212469d32d4aa13749b0, type: 2}
+  baseRangedCreep: {fileID: 11400000, guid: 66c4d87d818128e4580afd2a8d436a47, type: 2}
+  baseSuperRangedCreep: {fileID: 11400000, guid: 645b855f79a0d8245a78bcb4246ca6c9, type: 2}

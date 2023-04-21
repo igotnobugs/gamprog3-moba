@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e030d6137438ac84f98dd106613ab5c3, type: 3}
+  m_Name: Reapers Scythe
+  m_EditorClassIdentifier: 
+  skillName: Reapers Scythe
+  skillIcon: {fileID: 21300000, guid: ae8e09ec21b20124ca8e6dccefd04bf3, type: 3}
+  skillType: 0
+  targetingType: 2
+  affectType: 2
+  mustBeChannelled: 0
+  damageType: 1
+  description: 
+  skillLevel: 0
+  levelAvailability: 060000000c00000012000000
+  baseDamage:
+    value:
+    - 0
+  range:
+    value:
+    - 600
+  manaConsumption:
+    value:
+    - 200
+    - 350
+    - 500
+  coolDown:
+    value:
+    - 120
+  buffToApply:
+    value:
+    - {fileID: 11400000, guid: 59a1d81e10de22747b442a583b4c7de3, type: 2}
+  activeCooldown: 0
+  isSelected: 0
+  projectile: {fileID: 5315291763148833763, guid: 88d7ba765795f814cada8d4862c38348, type: 3}
+  projectileOffset: {x: 0, y: 0, z: 0}
+  overrideProjectileSettings: 1
+  projectileSpeed: 600

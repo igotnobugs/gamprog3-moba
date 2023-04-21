@@ -1,0 +1,128 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c1228ea915339140afbf83d87da93c4, type: 3}
+  m_Name: Base_RangedCreepData
+  m_EditorClassIdentifier: 
+  unitName: Ranged
+  heroPortrait: {fileID: 0}
+  _isHero: 0
+  _isStructure: 0
+  health:
+    current: 300
+    max: 300
+    regen: 0
+  hasMana: 0
+  mana:
+    current: 200
+    max: 200
+    regen: 0.5
+  armor:
+    normal: 0
+    modifier: 0
+    growth: 0
+    hasMinMax: 0
+    min: 0
+    max: 0
+  armorType: {fileID: 11400000, guid: 722b2f754be527f46beb6778563f6d18, type: 2}
+  baseMagicResistance: 0
+  totalMagicResistance: 0
+  autoAttack: {fileID: 11400000, guid: 79d9f735759e4b34e8dce62ff234ac4d, type: 2}
+  attackDamage:
+    normal: 24
+    modifier: 0
+    growth: 0
+    hasMinMax: 0
+    min: 0
+    max: 0
+  attackRange:
+    normal: 500
+    modifier: 0
+    growth: 0
+    hasMinMax: 0
+    min: 0
+    max: 0
+  isRange: 1
+  attackType: 1
+  attackSpeed:
+    normal: 100
+    modifier: 0
+    growth: 0
+    hasMinMax: 1
+    min: 20
+    max: 700
+  attackRate: 0
+  baseAttackTime: 1
+  totalAttackTime: 1
+  sightRange: 750
+  qSkill: {fileID: 0}
+  wSkill: {fileID: 0}
+  eSkill: {fileID: 0}
+  rSkill: {fileID: 0}
+  turnRateSpeed: 1440
+  moveSpeed:
+    normal: 325
+    modifier: 0
+    growth: 0
+    hasMinMax: 0
+    min: 0
+    max: 0
+  attributeData:
+    mainAttribute: 0
+    strength:
+      normal: 0
+      modifier: 0
+      growth: 0
+      hasMinMax: 1
+      min: 0
+      max: 9999
+    agility:
+      normal: 0
+      modifier: 0
+      growth: 0
+      hasMinMax: 1
+      min: 0
+      max: 9999
+    intelligence:
+      normal: 0
+      modifier: 0
+      growth: 0
+      hasMinMax: 1
+      min: 0
+      max: 9999
+    damageBonus: 0
+  goldBounty: 104
+  teamGoldBounty: 0
+  experienceBounty: 138
+  healthGrowth: 12
+  attackGrowth: 2
+  bountyGrowth: 6
+  experienceGrowth: 8
+  levelDatabase: {fileID: 0}
+  levelData:
+    id: 
+    level: 0
+    requiredExp: 0
+    expKillBounty: 0
+    goldLastHitBounty: 0
+    goldAssistBounty: 0
+    respawnTime: 0
+  level: 1
+  exp: 0
+  skillPoints: 1
+  gold: 600
+  magicResModifiers: []
+  magicResReductionModifiers: []
+  buffsApplied: []
+  stunState: 0
+  respawnTime: 0
+  kills: 0
+  deaths: 0

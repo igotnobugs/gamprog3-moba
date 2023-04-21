@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: DireSuperRangeCreepController
+  m_Controller: {fileID: 9100000, guid: 747473051f155fb4db2ff0dd521cc5fe, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: e4420ecec4072b444a8eb9eb720d4512, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: e1733f8d8c8f9714b93f3673671c7349, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 4a0b232f16dcd9142b3e3db96b526d79, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 9a805f917ad8c82469a58a5b95a93f3e, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 20dd356a873240c4bb2a005c20a0f97e, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 3daa2f124a9e7ee43a15706e706e08f5, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: f09bd92fdd989ce45b4db6845d50c939, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 9d221841569f4b44499beac42040b18a, type: 2}

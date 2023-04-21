@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: RadiantSiegeCreepController
+  m_Controller: {fileID: 9100000, guid: 747473051f155fb4db2ff0dd521cc5fe, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: e4420ecec4072b444a8eb9eb720d4512, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 1e1a67eee66de544d899862c91088620, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 4a0b232f16dcd9142b3e3db96b526d79, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: baa621eb2103c9b4ab549bc0d1b178e6, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 20dd356a873240c4bb2a005c20a0f97e, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 1fdbca6454c745a478f347d7ea39b1cb, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: f09bd92fdd989ce45b4db6845d50c939, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: a06aa6e35cdde794d8a904a3b557eea7, type: 2}

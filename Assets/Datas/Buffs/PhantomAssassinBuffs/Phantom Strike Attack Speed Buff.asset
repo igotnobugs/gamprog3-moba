@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c48e7df01b23480438f102af38c265d6, type: 3}
+  m_Name: Phantom Strike Attack Speed Buff
+  m_EditorClassIdentifier: 
+  buffId: Phantom Strike Attack Speed Buff 1
+  hasDuration: 1
+  isDispellable: 1
+  isStackable: 0
+  stacks: 1
+  buffLevel: 1
+  duration:
+    value:
+    - 2
+  HUDIcon: {fileID: 21300000, guid: d19f25678c0044a4195ab8bf90184e71, type: 3}
+  isHidden: 0
+  isDetrimental: 0
+  onlyAffectsRange: 0
+  attackSpeedBonus:
+    value: 640000007d00000096000000af000000

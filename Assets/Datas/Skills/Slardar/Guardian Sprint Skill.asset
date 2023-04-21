@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 214fa9d8904ff2145b53e5c7f79e6089, type: 3}
+  m_Name: Guardian Sprint Skill
+  m_EditorClassIdentifier: 
+  skillName: Guardian Sprint
+  skillIcon: {fileID: 21300000, guid: 5f9aaa9426a2bc94da531c91d375bdaf, type: 3}
+  skillType: 0
+  targetingType: 1
+  affectType: 0
+  mustBeChannelled: 0
+  damageType: 0
+  description: 
+  skillLevel: 0
+  levelAvailability: 01000000030000000500000007000000
+  baseDamage:
+    value:
+    - 0
+  range:
+    value:
+    - 150
+  manaConsumption:
+    value:
+    - 0
+  coolDown:
+    value:
+    - 17
+  buffToApply:
+    value:
+    - {fileID: 11400000, guid: 96b623894d39e8d4aa23df516ddc7ce6, type: 2}
+  activeCooldown: 0
+  isSelected: 0
